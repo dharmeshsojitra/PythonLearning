@@ -1,0 +1,6 @@
+print(10/3)
+print (10//3)
+print("10^3 is:", 3^2)
+print(10**3)
+print(10**3)
+print(10%3)
