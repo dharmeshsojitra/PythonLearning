@@ -6,3 +6,7 @@ for number in numbers:
         largest = number
 
 print(f'largest numbers in the list {numbers} is {largest}')
+
+
+rev_numbers = sorted(numbers, reverse=True)
+print(f'largest number in the list {rev_numbers[0]}')
