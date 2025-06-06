@@ -1,6 +1,7 @@
 import inheritance
+from inheritance import Dog
 
-german_s = inheritance.Dog()
+german_s = Dog()
 
 german_s.bark()
 
