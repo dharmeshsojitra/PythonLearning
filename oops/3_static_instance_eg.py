@@ -11,6 +11,10 @@ class User:
         print(f'User name: {self.user_name}, password: {self.password}')
         print(f'total user count is: {User.user_count}')
 
+    @staticmethod
+    def is_internet_on(conn):
+        return conn
+
 
 john = User('John', '(oeirjf')
 
@@ -18,3 +22,6 @@ john.display_user()
 
 john = User('John', '(oeirjf')
 john.display_user()
+
+
+print(User.is_internet_on(True))
