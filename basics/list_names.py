@@ -9,3 +9,7 @@ rev_names = sorted(names, reverse=True)
 print (f'names after sorting is {rev_names}')
 
 print(f'range from index 2 to end {rev_names[0:-4]}')
+
+print(len(names))
+del(names[2])
+print(len(names))
