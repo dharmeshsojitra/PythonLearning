@@ -1,5 +1,5 @@
 from pathlib import Path
-
+import os
 print(Path('spam') / 'bacon' / 'eggs')
 
 print(
@@ -13,3 +13,12 @@ print(
 print(
     'spam' / Path('bacon', 'eggs')
 )
+
+print(
+    Path.cwd()
+)
+
+print(os.getcwd())
+
+
+print (Path.home())
